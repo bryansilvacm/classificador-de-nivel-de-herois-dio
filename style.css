@@ -1,40 +1,90 @@
+@font-face {
+    font-family: fonteGame;
+    src: url("fonts/GamePlayed/GamePlayed-vYL7.ttf");
+}
+@font-face {
+    font-family: fontTituloGame;
+    src: url("fonts/venite-adoremus-font/VeniteAdoremus-rgRBA.ttf");
+}
+
+body{
+    background-image: url("pexels-francesco-ungaro-1670977.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-shadow: 0 0 5px #333;
+    backdrop-filter: blur(3px);
+    height: 100vh;
+}
+.transparencia{
+    width: 100%;
+    height: 100vh;
+    opacity: 40%;
+    background-color: #000000;
+    position: absolute;
+    z-index: -1;
+}
+
 main{
     display: flex;
     flex-direction: column;
-    margin: rem 7rem;
-    font-size: 1.2rem;
-
+    margin: 0rem 7rem;
+    font-size: 1.4rem;
+    font-family: "fonteGame", sans-serif;
+    
+    
 }
 h1{
     margin: 2rem auto;
+    font-family: "fontTituloGame", sans-serif;
+    color:#00E5FF;
+    text-shadow: 0 0 3px #333;
 
 }
 form{
     display: flex;
     flex-direction: column;
-    width:15%;
+    width:17%;
     margin: 2rem auto;
     gap: 0.5rem;
     justify-content: center;
 }
-
+input{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
 #submit{
     margin: 0rem auto;
     width: 10%;
     padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #FF1E1E;
+    border:none;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
 
 }
+#submit:hover{
+    background-color: #e21c1c;
+    transform: scale(1.05);
+    box-shadow:  0 0 20px #ff0000;
+}
+#submit:active{
+    background-color: #b31a1a;
+}
 section{
-    background-color: #333;
-    width: 40%;
+    background-color: #1596c9;
+    width: auto;
+    padding: 0 2rem;
     height: 3rem;
     margin: 2rem  auto;
-    color:aliceblue;
     display: flex;
     justify-content: center;
 }
 p{
-    color: aliceblue;
     text-align: center;
     margin: auto;
 }
