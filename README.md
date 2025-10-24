@@ -5,7 +5,7 @@ Esse é um desafio do bootcamp que realizei na plataforma da DIO, o desafio era 
 ![prototipo](imgs/prototipo.webp)
 
 
-Fique a vontade para acessar a página clicando[aqui]("https://bryansilvacm.github.io/classificador-de-nivel-de-herois-dio/")
+Fique a vontade para acessar a página clicando[aqui](https://bryansilvacm.github.io/classificador-de-nivel-de-herois-dio/)
 
 Tecnologias Utilizadas:
 
