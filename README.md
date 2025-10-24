@@ -8,9 +8,14 @@ Esse é um desafio do bootcamp que realizei na plataforma da DIO, o desafio era 
 Fique a vontade para acessar a página clicando[aqui]("https://bryansilvacm.github.io/classificador-de-nivel-de-herois-dio/")
 
 Tecnologias Utilizadas:
+
 -HTML para estruturação;
+
 -CSS para estilização;
+
 -JAVASCRIPT para a lógica utilizando variáveis, if else, e funções;
+
 -FONTS UTILIZADAS SÃO DO SITE "fontspace.com";
+
 
 
